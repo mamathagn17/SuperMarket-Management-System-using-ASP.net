@@ -1,0 +1,64 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.forgetbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 700px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(255, 217,9);
+}
+.lbluser, .lblemail, .lblnew, .lblconfirm {
+    font-weight:bold;
+    font-size:20px;
+    color:blue;
+}
+.txtuser, .txtemail, .txtnew, .txtconfirm,.btnverify,.btnsave {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.txtuser, .txtemail, .txtnew, .txtconfirm {
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+::placeholder {
+    color: rgba(255,255,255,.5);
+}
+.btnverify, .btnsave {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+ .btnsave:hover {
+        background-color: rgb(255,217,9);
+  
+}
+ .btnverify:hover {
+        background-color: rgb(255,217,9);
+    }

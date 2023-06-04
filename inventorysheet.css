@@ -1,0 +1,60 @@
+﻿
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/loginbg.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+  
+}
+
+.lblinventory {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    left: 55%;
+    top: 10%;
+}
+
+.lbliid {
+    font-weight: bold;
+    color: #102231;
+    font-size: 25px;
+    left: 45%;
+    top: 20%;
+    text-align: center;
+}
+
+.txtid {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.button {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    margin-bottom: 0px;
+}
+
+ .button:hover {
+        background-color: rgb(255,217,9);
+    }
+
+.Panel {
+    position: relative;
+    height: 716px;
+    width: 487px;
+    left: 147px;
+    top: 72px;
+    padding: 10px;
+    border-radius: 20px;
+}
